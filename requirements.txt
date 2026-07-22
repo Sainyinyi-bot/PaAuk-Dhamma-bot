@@ -1,0 +1,11 @@
+python-telegram-bot==21.6
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+pypdf
+google-generativeai
+langchain-google-genai
