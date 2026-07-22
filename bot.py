@@ -23,6 +23,12 @@ if not TELEGRAM_BOT_TOKEN or not GOOGLE_API_KEY:
         "Environment Variables မသတ်မှတ်ရသေးပါ။"
     )
 
+# embeddings = HuggingFaceEmbeddings(...)
+# vectorstore = FAISS.load_local(...)
+# retriever = vectorstore.as_retriever(...)
+
+async def answer(update, context):
+    await update.message.reply_text("Bot is working ✅")
 
 # Hugging Face Embedding
 embeddings = HuggingFaceEmbeddings(
